@@ -26,4 +26,4 @@ io.on('connection', function(socket){
 
 });
 
-server.listen(process.env.PORT || 3008);
+server.listen(process.env.PORT);
