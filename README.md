@@ -3,6 +3,9 @@
 
 https://github.com/f3rnando/riD/tree/realtime-changes
 
+### Demo
+http://f3rnando.github.io
+
 ## Installation
 iD-socket can be installed in a server separated from the iD editor itself or not, as socket.io supports CORS by default. Be sure you first have riD (iD fork) cloned and running by doing:
 
