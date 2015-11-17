@@ -4,7 +4,7 @@
 https://github.com/f3rnando/riD/tree/realtime-changes
 
 ### Demo
-http://f3rnando.github.io
+http://id-editor.fernando.com.ar
 
 ## Installation
 iD-socket can be installed in a server separated from the iD editor itself or not, as socket.io supports CORS by default. Be sure you first have riD (iD fork) cloned and running by doing:
@@ -28,10 +28,6 @@ Once you install iD-socket somewhere:
 Or you can also override the default 80 port with env var called PORT:
 
 	$ DEBUG="*" PORT="3000" node app.js
-
-### Works in Heroku or Scalingo?
-Yes. Right away. In the demo app, there is an iD editor fork called riD which main branch is realtime-changes, running in Github Pages (http://f3rnando.github.io) and the socket backend (iD-socket, this repo) is deployed in Scalingo (http://id-socket.scalingo.io:80)
-You can do the same and have your own really quick. Try it!
 
 ## Usage
 Once you know the host of your iD-socket, you can change it in the riD index.html file, at the bottom script tag:
